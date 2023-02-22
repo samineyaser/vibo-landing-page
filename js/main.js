@@ -1,0 +1,3 @@
+function samin() {
+    document.write{}
+}

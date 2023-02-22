@@ -1,0 +1,363 @@
+header {
+  background: url("../img/bg.jpg") 0% 0% / cover no-repeat;
+  text-align: center;
+  color: white;
+  z-index: 0;
+  margin: auto;
+  margin-bottom: -200px;
+}
+header nav ul li a {
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+}
+header h1 {
+  margin-top: 100px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 45pt;
+  font-weight: 700;
+  letter-spacing: -2px;
+}
+header p {
+  margin-top: 30px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15pt;
+}
+.img-top {
+  z-index: 0;
+}
+.btn {
+  margin: 50px 0px;
+}
+.light {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 40px;
+  color: black;
+  border-radius: 5px;
+  margin: 0px 20px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.deep {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  background-color: transparent;
+  padding: 10px 55px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  margin: 0px 20px;
+}
+.light:hover,
+.deep:hover {
+  box-shadow: rgba(0, 123, 255, 0.25) 5px 5px;
+  border-radius: 7px;
+  transition: all 8ms ease-in-out 0s;
+}
+.about {
+  background: url("../img/bg2.png");
+  backface-visibility: hidden;
+  background-size: cover;
+  z-index: 1;
+  padding-top: 200px;
+  padding-bottom: 150px;
+  text-align: center;
+  margin: auto;
+}
+.about-img {
+  margin: auto -25px;
+}
+.aboutimg {
+  max-height: 80%;
+  min-height: auto;
+  display: block;
+}
+.cmn {
+  padding: 20px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.21) 0px 0px 5px 2px;
+  width: 100%;
+  min-height: 40%;
+}
+.cmn img {
+  margin: 10px auto;
+}
+.cmn h3 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  margin: 10px auto;
+}
+.cmn p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+}
+.icon1 {
+  margin-left: 50px;
+}
+.icon2 {
+  margin-left: -50px;
+  margin-top: 80px;
+}
+.icon3 {
+  margin-top: 80px;
+  margin-left: 80px;
+}
+.icon4 {
+  margin-top: 80px;
+}
+.info {
+  padding: 75px 0px;
+}
+.info-write {
+  text-align: right;
+  margin: auto;
+}
+.info-write h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  margin: 25px 0px;
+  font-size: 45px;
+}
+.info-write p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+}
+.info-write button {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  background-color: rgb(7, 179, 243);
+  padding: 10px 40px;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  margin: 25px 0px;
+}
+.info-write button:hover {
+  box-shadow: rgba(0, 123, 255, 0.25) 5px 5px;
+  border-radius: 7px;
+  transition: all 8ms ease-in-out 0s;
+}
+.info-list {
+}
+.info-list ul {
+}
+.info-list ul li {
+  text-decoration: none;
+  list-style: none;
+  box-shadow: rgba(0, 0, 0, 0.21) 0px 0px 5px 5px;
+  padding: 20px;
+  margin: 20px;
+}
+.info-list ul li:hover {
+  background: rgb(51, 210, 253);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+.info-list ul li h3 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.cstm {
+  margin-right: 20px;
+  font-size: 28px;
+}
+.info-list ul li p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+}
+
+/*INfo2 Part start*/
+.info2 {
+  padding: 50px 0px;
+  background: #fafafc;
+}
+.code img {
+}
+.info2-text {
+  margin: auto;
+}
+.info2-text h3 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.info2-text span {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+}
+.info2-text p {
+  font-family: "Work Sans", sans-serif;
+  margin-top: 30px;
+}
+.cstm2 {
+  color: #2fabd1;
+  border-radius: 100%;
+  border: none;
+}
+
+/* App Section Start */
+.app {
+  background: url(../img/bg3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 75px 0px;
+  position: relative;
+  text-align: center;
+}
+.app-img {
+  text-align: center;
+}
+.app-info {
+  margin: auto;
+  text-align: left;
+}
+.app-info h3 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.app-info p {
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 30px;
+}
+.gogle {
+  margin-right: 25px;
+}
+.btnn {
+  background: linear-gradient(to bottom, #fe7171 0%, #f73f7c 100%);
+  position: absolute;
+  border: none;
+  text-align: center;
+  padding: 15px 35px;
+  left: 45%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+}
+
+/* Contact Section Start */
+
+.contact {
+  padding: 75px 0px;
+}
+.contact ul {
+  list-style: none;
+}
+.contact ul li {
+  font-family: "Work Sans", sans-serif;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.menu {
+  font-weight: 500;
+}
+
+/* Touch Section Start */
+.touch {
+  text-align: center;
+  padding: 50px;
+}
+.touch h1 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+}
+.touch p {
+  font-family: "Work Sans", sans-serif;
+}
+.email {
+  width: 35%;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 0px;
+}
+.btnnn {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  background-color: rgb(7, 179, 243);
+  padding: 10px 40px;
+  color: rgb(255, 255, 255);
+  border: 4px solid rgb(7, 179, 243);
+}
+footer {
+  background: #233148;
+  color: #fff;
+  padding: 20px 0px;
+  margin: auto;
+}
+.copy {
+  margin: auto;
+  font-family: "Work Sans", sans-serif;
+}
+.copy-right {
+  margin: auto;
+}
+.sc {
+  margin: 0 20px;
+  font-size: 32px;
+  cursor: pointer;
+}
+.social {
+  margin: auto;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    text-align: center;
+  }
+  section {
+    padding: 30px 10px;
+  }
+  .info-write{
+    text-align: center;
+  }
+  header h1 {
+    font-size: 30pt;
+  }
+  .light {
+    margin-bottom: 20px;
+  }
+  .about {
+  }
+  .aboutimg {
+    display: none;
+  }
+  .cmn {
+    margin: auto;
+  }
+  .btnn {
+    position: static;
+  }
+  .sc {
+    margin: 0 auto;
+  }
+  .app-info {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .contact {
+    padding: 0px;
+  }
+  .touch {
+    padding: 0px;
+  }
+  input {
+    width: 90%;
+    margin: 5px auto;
+  }
+  .email {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .app-info h3 {
+    margin-top: 25px;
+  }
+  .box {
+    padding: 0px;
+    margin: auto;
+  }
+}
